@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommender</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Get Your Product Recommendation</h2>
+        <form action="/recommend" method="POST">
+            <input type="number" name="age" placeholder="Age" required>
+            <select name="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            <input type="text" name="job" placeholder="Job" required>
+            <input type="number" name="income" placeholder="Income" required>
+            <select name="marital_status">
+                <option>Single</option>
+                <option>Married</option>
+            </select>
+            <button type="submit">Recommend</button>
+        </form>
+    </div>
+</body>
+</html>
