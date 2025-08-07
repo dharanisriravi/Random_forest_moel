@@ -55,7 +55,7 @@ Follow these steps to run the project on your local machine.
 
 ### Install Dependencies
 
-```bash
+
 pip install flask pandas scikit-learn
 
 ## Train the Model
