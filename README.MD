@@ -69,13 +69,13 @@ python app.py
 Visit http://localhost:5000 in your browser.
 
 ## How It Works
- The user enters personal details (age, gender, occupation, income).
+ - The user enters personal details (age, gender, occupation, income).
 
- The Flask backend passes the data to the pre-trained Random Forest model.
+ - The Flask backend passes the data to the pre-trained Random Forest model.
 
- The model returns the predicted product category.
+ - The model returns the predicted product category.
 
- The front-end displays the result in a visually appealing format.
+ - The front-end displays the result in a visually appealing format.
 
 ## UI PREVIEW
 
@@ -90,13 +90,12 @@ Visit http://localhost:5000 in your browser.
 
 
 ## Future Enhancements
-  Add database support to store user recommendations
+  - Add database support to store user recommendations
 
-  Add login/authentication system
+  - Add login/authentication system
 
-  Use more advanced models like XGBoost or Neural Networks
+  - Use more advanced models like XGBoost or Neural Networks
 
-  Add analytics dashboard for insights
+  - Add analytics dashboard for insights
 
-## Author
-   Developed by R.Dharani sri.
+
